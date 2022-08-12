@@ -17,3 +17,9 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Jessi"
+  build3:
+    name: Hello world action3
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a

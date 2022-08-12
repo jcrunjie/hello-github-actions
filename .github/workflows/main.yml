@@ -9,6 +9,7 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+  build2:
     name: Hello world action2
     runs-on: ubuntu-latest
     steps:
